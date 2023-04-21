@@ -3,7 +3,7 @@ const randomNumber = Math.floor(Math.random() * 10);
 
 let userName = window.prompt('Unesite vaše ime:');
 
-if (userName === null) {
+if (userName === null || userName === '') {
     userName = `Korisnik ${randomNumber}`;
 }
 
